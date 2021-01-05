@@ -1,3 +1,4 @@
+'use strict';
 const cluster = require("cluster");
 
 if (cluster.isMaster) {
@@ -11,8 +12,7 @@ if (cluster.isMaster) {
     }
 
 
-}
-else {
+} else {
     const server = require("./src/Server");
 
     const Server = new server();

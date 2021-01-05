@@ -1,19 +1,23 @@
 {
-  "name": "my-lego-sets",
-  "version": "1.0.0",
-  "description": "Personal LEGO(r) directory",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Xflofoxx/my-lego-sets.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Xflofoxx/my-lego-sets/issues"
-  },
-  "homepage": "https://github.com/Xflofoxx/my-lego-sets#readme"
+    "name": "my-lego-sets",
+    "version": "1.0.0",
+    "description": "Personal LEGO(r) directory",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Xflofoxx/my-lego-sets.git"
+    },
+    "author": "Dario Olivini <xflofoxx@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Xflofoxx/my-lego-sets/issues"
+    },
+    "homepage": "https://github.com/Xflofoxx/my-lego-sets#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
 }
