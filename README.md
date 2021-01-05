@@ -1,2 +1,2 @@
 # my-lego-sets
-Personal LEGO(r) directory
+Personal LEGO&reg; directory
