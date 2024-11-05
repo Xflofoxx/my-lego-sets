@@ -18,6 +18,6 @@
     },
     "homepage": "https://github.com/Xflofoxx/my-lego-sets#readme",
     "dependencies": {
-        "express": "^4.19.2"
+        "express": "^4.20.0"
     }
 }
